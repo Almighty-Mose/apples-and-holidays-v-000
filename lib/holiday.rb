@@ -67,9 +67,9 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season, holiday|
     holiday.each do |attribute, data|
     puts "#{season.to_s.capitalize}:"
-    puts "  #{holiday.to_s.capitalize:
+    puts "  #{holiday.to_s.capitalize}: #{data}"
+    end
   end
-
 end
 
 def all_holidays_with_bbq(holiday_hash)
